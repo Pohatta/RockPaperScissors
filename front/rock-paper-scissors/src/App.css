@@ -1,0 +1,33 @@
+/*Layout*/
+img.logo-img {
+    max-height: 74px;
+}
+
+main.main-content {
+    margin-top: 100px;
+}
+
+/*Game*/
+img.game-item{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+img.game-item:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.player {
+    transform: rotate(180deg);
+}
+
+.selected {
+    transform: scale(1.5);
+    -webkit-filter: grayscale(0) !important;
+    filter: grayscale(0) !important;
+}

@@ -251,16 +251,18 @@ class Game extends Component {
         
         return(
             <Container>
-                <Col xs="12" className="text-center my-2 border-bottom">
-                    <h1>Rock, Paper, Scissors</h1>
-                    <p className="lead"><strong> (Best out of Five) </strong></p>
+                <Col xs="10" md="8">
+                    <Col xs="12" className="text-center my-2 border-bottom">
+                        <h1>Rock, Paper, Scissors</h1>
+                        <p className="lead"><strong> (Best out of Five) </strong></p>
+                    </Col>
+                        {computerBoard}
+                    <Row className="text-center my-3">
+                        {centerArea}
+                        {message}
+                    </Row>
+                        {playerBoard}
                 </Col>
-                    {computerBoard}
-                <Row className="text-center my-3">
-                    {centerArea}
-                    {message}
-                </Row>
-                    {playerBoard}
             </Container>
         );
     }

@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 
-import { Row, Col, Container } from 'reactstrap';
+import { Col } from 'reactstrap';
 
 import RockGreen from '../../../assets/img/kivi_1.png'
 import RockRed from '../../../assets/img/kivi_2.png'
@@ -13,7 +13,7 @@ class Game extends Component {
     constructor(props) {
         super(props);
             this.state = {
-                selected: false,
+                selected: this.props.selected,
             }
     }
 
@@ -29,16 +29,14 @@ class Game extends Component {
 
 
     render() {
-        // console.log(this.props)
-
 
         // Add classes to game item
         const classes = ['game-item'];
+
         // If selected
-        if (this.state.selected) {
+        if (this.props.selected) {
             classes.push('selected')
         }
-
 
         //Select correct image & action
         let imgSource;

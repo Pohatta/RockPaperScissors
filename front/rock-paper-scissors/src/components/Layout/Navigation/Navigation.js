@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import { NavLink} from 'react-router-dom';
 
-import {Collapse, Navbar,  NavbarToggler,  NavbarBrand,  Nav,  NavItem, UncontrolledDropdown,  DropdownToggle,  DropdownMenu,  Container } from 'reactstrap';
+import {Collapse, Navbar,  NavbarToggler,  NavbarBrand,  Nav,  NavItem, Container } from 'reactstrap';
 import Logo from '../Logo/Logo'
 
 class Navigation extends React.Component {
@@ -34,9 +34,6 @@ class Navigation extends React.Component {
         <Nav className="mr-auto" navbar>
           <NavItem>
             <NavLink to="/" className="nav-link" onClick={this.close}>Home</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink to="/setup" className="nav-link" onClick={this.close}>Setup</NavLink>
           </NavItem>
         </Nav>
       </Fragment>

@@ -2,6 +2,9 @@
 
 Just a demo using react & node
 
+## Preview
+
+![alt text](https://www.pohatta.com/wp-content/uploads/2019/03/GameImg.png)
 
 ## Installing
 
@@ -22,7 +25,7 @@ npm install
 npm install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+That's all!
 
 ## Notes
 

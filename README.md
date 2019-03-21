@@ -13,13 +13,13 @@ A step by step series of examples that tell you how to get a development env run
 Project includes front and backend which need to be installed separately
 
 1. Download / Clone repository
-2. Navigate to back (backend) and run
+2. Navigate to backend (\back) and run
 
 ```
 npm install
 ```
 
-3. Navigate to front end and run
+3. Navigate to front end (\front\rock-paper-scissors) and run
 
 ```
 npm install

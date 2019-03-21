@@ -24,6 +24,11 @@ npm install
 ```
 npm install
 ```
+Then start both servers with
+
+```
+npm start
+```
 
 That's all!
 
